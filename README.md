@@ -1,94 +1,142 @@
-<p align="center">
-  <img src="public/images/halaman_depan.png" width="400" alt="halaman_depan">
-  <img src="public/images/login.png" width="400" alt="login">
-  <img src="public/images/admin.png" width="400" alt="admin">
-  <img src="public/images/ketua.png" width="400" alt="ketua">
-  <img src="public/images/halaman_donatur.png" width="400" alt="halaman_donatur">
-  <img src="public/images/midtrans.png" width="400" alt="midtrans">
-</p>
+# Mosque Financial Management System
 
-# Sistem Informasi Keuangan Masjid Jenderal Ahmad Yani
+A web-based mosque financial management system built with Laravel to help manage financial records, donations, transactions, and administrative activities in a structured and transparent way.
 
-Proyek skripsi berbasis website menggunakan Laravel 11 ini merupakan sistem informasi keuangan untuk Masjid Jenderal Ahmad Yani. Aplikasi ini memiliki tiga user utama:
-- **Bendahara (Admin):** Mengelola data keuangan.
-- **Ketua:** Memverifikasi data keuangan.
-- **Jamaah:** Dapat mendaftar sebagai donatur dan melihat laporan keuangan.
+![Project Preview](screenshots/preview.png)
 
-## Fitur Utama
-- Manajemen data keuangan oleh bendahara.
-- Verifikasi data keuangan oleh ketua.
-- Pendaftaran donatur dan akses laporan keuangan bagi jamaah.
+---
 
-## Persyaratan
-- PHP 8.0 atau lebih tinggi (rekomendasi: PHP 8.1 atau 8.2)
-- Composer
+## 📌 Overview
+
+Mosque Financial Management System is a Laravel-based application designed to digitize mosque financial administration.
+
+This application provides a centralized platform for managing financial transactions, donation records, reports, and user access management.
+
+The system implements role-based authentication where each user has different access levels based on their responsibilities.
+
+This project focuses on improving:
+- Financial data organization
+- Transaction monitoring
+- Administrative efficiency
+- Transparency of mosque financial management
+
+---
+
+# ✨ Features
+
+## 🔐 Authentication & Role Management
+
+- Secure user authentication
+- Multi-role access system
+- Admin dashboard
+- Mosque leader (Ketua) dashboard
+- User account management
+
+---
+
+## 💰 Financial Management
+
+- Manage income transactions
+- Manage expense transactions
+- Cash flow monitoring
+- Transaction history
+- Financial records management
+- Financial summary
+
+---
+
+## 🤲 Donation Management
+
+- Donation recording
+- Donation history
+- Donation status management
+- Donor information management
+
+---
+
+## 🕌 Mosque Information Management
+
+- Mosque information page
+- Activity information
+- Community information
+- Additional information modules
+
+---
+
+# 🛠️ Technology Stack
+
+## Backend
+
 - Laravel 11
-- MySQL atau database lain yang didukung Laravel
-- Node.js dan npm (untuk compile asset front-end, jika diperlukan)
+- PHP 8.2
 
-## Langkah-langkah Instalasi dan Setup Proyek
+## Database
 
-1. **Clone Repository**  
-   Clone repository dengan perintah:
-   ```bash
-   git clone https://github.com/M-Ardiansyah-EP/Sistem-Informasi-Keuangan-Masjid.git
-   ```
+- MySQL
+- MariaDB
 
-2. **Masuk ke Direktori Proyek**  
-   Pindah ke folder proyek:
-   ```bash
-   cd Sistem-Informasi-Keuangan-Masjid
-   ```
+## Frontend
 
-3. **Install Dependensi PHP**  
-   Instal semua dependensi menggunakan Composer:
-   ```bash
-   composer install
-   ```
+- Blade Template
+- Bootstrap
+- JavaScript
+- HTML5
+- CSS3
 
-4. **Setup Environment**  
-   Salin file `.env.example` ke `.env`:
-   ```bash
-   cp .env.example .env
-   ```
-   Kemudian, buka file `.env` dan atur konfigurasi database serta variabel lainnya sesuai kebutuhan.
+## Development Tools
 
-5. **Generate Application Key**  
-   Jalankan perintah:
-   ```bash
-   php artisan key:generate
-   ```
+- Composer
+- NPM
+- Git
+- XAMPP
 
-6. **Jalankan Migrasi dan Seed Database**  
-   Untuk membuat tabel dan memasukkan data default (roles dan users), jalankan:
-   ```bash
-   php artisan migrate --seed
-   ```
-   Seeder `RolesTableSeeder.php` dan `UsersTableSeeder.php` akan membuat:
-   - **User Admin (Bendahara):**  
-     Email: `admin@gmail.com`  
-     Password: `12345678`
-   - **User Ketua:**  
-     Email: `ketua@gmail.com`  
-     Password: `12345678`
+---
 
-7. **(Opsional) Install Dependensi Node.js dan Compile Assets**  
-   Jika proyek menggunakan asset front-end, jalankan:
-   ```bash
-   npm install
-   npm run dev
-   ```
+# 👥 User Roles
 
-8. **Jalankan Server Pengembangan**  
-   Mulai server Laravel dengan perintah:
-   ```bash
-   php artisan serve
-   ```
-   Akses aplikasi melalui [http://localhost:8000](http://localhost:8000).
+## Administrator
 
-## Kontribusi
-Kontribusi sangat diterima! Silakan fork repository ini dan ajukan pull request untuk perbaikan atau fitur tambahan.
+Admin is responsible for managing the system and financial data.
 
-## Lisensi
-Proyek ini dilisensikan di bawah [MIT License](https://opensource.org/licenses/MIT).
-```
+Access:
+- Manage transactions
+- Manage financial records
+- Manage application data
+- Monitor system activities
+
+Demo Account:
+Email:
+admin@gmail.com
+
+Password:
+12345678
+
+
+---
+
+## Mosque Leader (Ketua)
+
+The mosque leader can monitor and review financial activities.
+
+Access:
+- View financial reports
+- Monitor transactions
+- Review mosque financial data
+
+Demo Account:
+Email:
+ketua@gmail.com
+
+Password:
+12345678
+
+
+---
+
+# ⚙️ Installation Guide
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/rajsfanopriariyabarisky/mosque-financial-management.git
+
