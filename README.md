@@ -18,6 +18,26 @@ This project focuses on improving:
 - Administrative efficiency
 - Transparency of mosque financial management
 
+## 🔄 System Workflow
+
+1. Donor registers and accesses the system.
+2. Donors can submit donation transactions.
+3. Admin manages financial data and transaction records.
+4. Mosque leaders review financial reports and activities.
+
+
+# 🗄️ Database Design
+
+Main modules:
+
+- User Management
+- Role Management
+- Cash Management
+- Donation Management
+- Financial Reports
+- Mosque Activities
+- Information Management
+
 ---
 
 # ✨ Features
