@@ -2,8 +2,6 @@
 
 A web-based mosque financial management system built with Laravel to help manage financial records, donations, transactions, and administrative activities in a structured and transparent way.
 
-![Project Preview](screenshots/preview.png)
-
 ---
 
 ## 📌 Overview
