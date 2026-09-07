@@ -130,11 +130,22 @@ Password:
 
 
 ---
+## 🤲 Donatur / User
 
-# ⚙️ Installation Guide
+Donatur is a general user who can participate in mosque activities and make donations.
 
-## 1. Clone Repository
+Access:
+- Register and login to the system
+- View mosque information
+- Make donations
+- View donation history
+- Monitor personal donation records
 
-```bash
-git clone https://github.com/rajsfanopriariyabarisky/mosque-financial-management.git
+Demo Account:
 
+
+Email:
+User account password
+
+Password:
+(user account password)
